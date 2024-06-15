@@ -1,7 +1,10 @@
-Ascii_screen
+# Ascii_screen
 
-USAGE EXAMPLE:
+Simple terminal GUI for output. Split your screen to seperate windows, and modify them to your heart's content.
 
+## USAGE EXAMPLE:
+
+```
 #include "ascii_screen.hpp"
 
 int main()
@@ -55,16 +58,13 @@ int main()
 
     return 0;
 }
-
-// Background changed from ' ' to '.' for the sake of example: 
+```
+##### Another window added and background changed from ' ' to '.': 
 ![ascii_screen_example](https://github.com/balintkarko/Ascii_screen/assets/124880530/f05a8b4f-a85f-43d6-860d-29c93b953343)
 
-// End of example
 
-
-
-// Header file must be compiled because of inlined functions 
-
-g++ -o main.exe main.cpp ascii_screen.cpp ascii_screen.hpp
-
+Header file must be compiled because of inlined functions 
+```
+g++ -o main.exe main.cpp ascii_screen.cpp ascii_screen.hpp 
 main.exe
+```
