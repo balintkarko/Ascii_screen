@@ -64,5 +64,7 @@ int main()
 
 
 // Header file must be compiled because of inlined functions 
+
 g++ -o main.exe main.cpp ascii_screen.cpp ascii_screen.hpp
+
 main.exe
